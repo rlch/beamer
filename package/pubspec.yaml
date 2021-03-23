@@ -1,8 +1,6 @@
 name: beamer
 description: A router that lets you navigate through guarded page stacks and URLs using the Navigator 2.0 API effortlessly.
-version: 1.0.0-nullsafety.7
-homepage: https://github.com/slovnicki/beamer
-repository: https://github.com/slovnicki/beamer
+version: 1.0.0-nullsafety.8gg
 
 environment:
   sdk: ">=2.12.0-0 <3.0.0"
