@@ -42,7 +42,7 @@ class BeamGuard {
   /// If guard [check] returns false, build a location to be beamed to.
   ///
   /// This has precedence over [showPage].
-  BeamLocation Function(BuildContext context)? beamTo;
+  BeamLocation Function(BuildContext context, BeamLocation location)? beamTo;
 
   /// If guard [check] returns false, put this page onto navigation stack.
   ///

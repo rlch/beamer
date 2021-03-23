@@ -237,7 +237,7 @@ class BeamerRouterDelegate extends RouterDelegate<Uri>
   Widget build(BuildContext context) {
     final BeamGuard? guard = _guardCheck(context, _currentLocation);
     if (guard?.beamTo != null) {
-      _beamHistory.add(guard!.beamTo!(context)..prepare());
+      _beamHistory.add(guard!.beamTo!(context, _currentLocation)..prepare());
       _currentLocation = _beamHistory.last;
     } else if ((_currentLocation is NotFound) && notFoundRedirect != null) {
       _currentLocation = notFoundRedirect!..prepare();
