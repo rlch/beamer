@@ -1,6 +1,6 @@
 name: beamer
 description: A router that lets you navigate through guarded page stacks and URLs using the Navigator 2.0 API effortlessly.
-version: 1.0.0-nullsafety.8gg
+version: 1.0.0-nullsafety.8
 
 environment:
   sdk: ">=2.12.0-0 <3.0.0"
